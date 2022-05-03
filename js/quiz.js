@@ -5,10 +5,10 @@
 let correct = 0;
 
 // 2. Store the rank of a player
-let rank = correctAnswers 
+let rank = ""; 
 
 // 3. Select the <main> HTML element
-const tallyAndRank = ` `You got ${} out of 5 questions correct.
+const main = document.querySelector(`main`);
 
 /*
 4. Ask at least 5 questions
@@ -17,12 +17,26 @@ const tallyAndRank = ` `You got ${} out of 5 questions correct.
 - addition assignement operator
 */
 
-correctAnswers += 
-let question1 = 
-let question2 =
-let question3 =
-let question4 =
-let question5 =
+const answer1 = prompt("Name a programming language that is also a gem.");
+if (answer1.toUpperCase() === 'RUBY') {
+    correct += 1;
+}
+const answer2 = prompt("Name a programming language that is also a gem.");
+if (answer1.toUpperCase() === 'RUBY') {
+    correct += 1;
+}
+const answer3 = prompt("Name a programming language that is also a gem.");
+if (answer1.toUpperCase() === 'RUBY') {
+    correct += 1;
+}
+const answer4 = prompt("Name a programming language that is also a gem.");
+if (answer1.toUpperCase() === 'RUBY') {
+    correct += 1;
+}
+const answer5 = prompt("Name a programming language that is also a gem.");
+if (answer1.toUpperCase() === 'RUBY') {
+    correct += 1;
+}
 /*
 5. Rank player based on number of correct answers
 - 5 correct = Gold
